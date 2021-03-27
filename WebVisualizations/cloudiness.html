@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Weather Analysis Visualization</title>
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--Bringing in the bootstrap stylesheet-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+            <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: whitesmoke">
+
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+        </div>
+        
+
+          <div class="nav navbar-nav navbar-right">
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Plots<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="temperature.html">Max Temperature</a></li>
+                    <li><a href="humidity.html">Hummidity</a></li>
+                    <li><a href="cloudiness.html">Cloudiness</a></li>
+                    <li><a href="windspeed.html">Wind Speed</a></li>
+                </ul>
+              </li>
+              <li><a href="comparison.html"> Comparison</a></li>
+              <li><a href="data.html"> Data</a></li>
+            </div>
+          </div>
+
+      </nav>
+    <!--Creating a grid-->
+    <div class="container">
+        <div class="row">
+            <div class="panel panel-default">
+                <div class="panel-body">
+
+                    <h2>Cloudiness</h2>
+                    <hr>
+                    <img class="image" src="Resources/assets and images/Fig3.png" alt="cloudiness" >
+                    <p class="p1">There is no direct correlation between cloudiness and the latitude. However there are many cities that have 0% cloudiness just as there are others that have a 75-80% cloudiness rate.</p>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="Panel-body">
+                    <h2>Visualizations</h2>
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="temperature.html"><img class="img img-responsive" src="Resources/assets and images/Fig1.png" style="width:100%" alt=""></a></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="humidity.html"><img class="img img-responsive" src="Resources/assets and images/Fig2.png" style="width:100%" alt=""></a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="cloudiness.html"><img class="img img-responsive" src="Resources/assets and images/Fig3.png" style="width:100%" alt=""></a></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="windspeed.html"><img class="img img-responsive" src="Resources/assets and images/Fig4.png" style="width:100%" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+  </body>
+  </html>
